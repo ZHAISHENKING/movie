@@ -5,6 +5,7 @@ __date__ = '2017/8/26 17:05'
 from datetime import datetime
 from app import db
 
+
 # 会员数据模型
 class User(db.Model):
     __tablename__ = "user"
