@@ -201,11 +201,12 @@ class Oplog(db.Model):
     def __repr__(self):
         return "<Oplog %r>" % self.id
 
+
 # if __name__ == "__main__":
-#     db.create_all()
-
-    # 测试数据的插入
-
+    # db.create_all()
+    #
+    # # 测试数据的插入
+    #
     # role = Role(
     #     name="超级管理员",
     #     auths=""
@@ -215,8 +216,8 @@ class Oplog(db.Model):
     # from werkzeug.security import generate_password_hash
     #
     # admin = Admin(
-    #     name="mtianyanmovie",
-    #     pwd=generate_password_hash("mtianyanmovie"),
+    #     name="admin",
+    #     pwd=generate_password_hash("admin"),
     #     is_super=0,
     #     role_id=1
     # )
