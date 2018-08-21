@@ -251,6 +251,7 @@ def movie_add():
         data = form.data
         file_url = secure_filename(form.url.data.filename)
         file_logo = secure_filename(form.logo.data.filename)
+
         if not os.path.exists(app.config["UP_DIR"]):
             # 创建一个多级目录
             os.makedirs(app.config["UP_DIR"])
