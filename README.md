@@ -19,3 +19,4 @@ cd movie_project
 python manage.py runserver
 ```
 
+- 部署时nginx需设置上传文件大小限制
